@@ -15,7 +15,7 @@ const app = express();
 
 
 // Connect to MongoDB
-connectToMongoDB("mongodb://localhost:27017/shortURL")
+connectToMongoDB("mongodb+srv://siraj2024ansarib:e321e321@cluster0.7sa1g.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     .then(() => console.log("MONGODB CONNECTED."));
 
 app.set('view engine', 'ejs');
